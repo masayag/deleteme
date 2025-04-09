@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deleteme
+  description: A simple Hello World service
+  annotations:
+    github.com/project-slug: masayag/deleteme
+  tags:
+    - typescript
+    - test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
