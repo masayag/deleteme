@@ -5,6 +5,7 @@ metadata:
   description: A simple Hello World service
   annotations:
     github.com/project-slug: masayag/deleteme
+    gocd.org/pipelines: backstage,backstage-pr,backstage-builder    
   tags:
     - typescript
     - test
